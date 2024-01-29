@@ -1,1 +1,25 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.figure1 {
+  font-size: 60px;
+  /* text-align: left; */
+}
+
+.figure2 {
+  font-size: 60px;
+  transform: rotate(180deg);
+}
