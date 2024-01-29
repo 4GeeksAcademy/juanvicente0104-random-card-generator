@@ -9,17 +9,19 @@ body {
 
 .card {
   background-color: white;
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   border-radius: 15px;
 }
 
 .figure1 {
+  margin: 5px;
+  transform: translateX(-80px);
   font-size: 60px;
-  /* text-align: left; */
 }
 
 .figure2 {
+  margin: 5px;
   font-size: 60px;
-  transform: rotate(180deg);
+  transform: translateX(80px) rotate(180deg);
 }
